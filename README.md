@@ -1,4 +1,4 @@
-# pi-gen
+# docker-pi-gen
 
 _Tool used to create "Raspbian-Lite with Docker preinstalled" images_
 
