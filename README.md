@@ -1,11 +1,10 @@
-_Tool used to create "Raspbian-Lite w/ Docker" images_
+#pi-gen
 
-This tool will create Raspbian-Lite images with Docker pre-installed.
+_Tool used to create "Raspbian-Lite with Docker" images_
 
 ## Docker Build
 
 ```bash
-vi config         # Edit your config file. See above.
 ./build-docker.sh
 ```
 If everything goes well, your finished image will be in the `deploy/` folder.
