@@ -1,8 +1,16 @@
 # pi-gen
 
-_Tool used to create "Raspbian-Lite with Docker" images_
+_Tool used to create "Raspbian-Lite with Docker preinstalled" images_
 
 ## Docker Build
+
+Prerequisites: 
+
+- Reliable Internet connection.
+- Docker
+- binfmt-support
+
+Run the following command:
 
 ```bash
 ./build-docker.sh
@@ -16,5 +24,4 @@ continue:
 ```
 CONTINUE=1 ./build-docker.sh
 ```
-
 There is a possibility that even when running from a docker container, the installation of `qemu-user-static` will silently fail when building the image because `binfmt-support` _must be enabled on the underlying kernel_. An easy fix is to ensure `binfmt-support` is installed on the host machine before starting the `./build-docker.sh` script (or using your own docker build solution).
