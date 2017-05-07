@@ -24,7 +24,7 @@ export -f bootstrap
 
 copy_previous(){
 	if [ ! -d "${PREV_ROOTFS_DIR}" ]; then
-		echo "Previous stage rootfs not found"
+		echo "Previous stage rootfs not found: ${PREV_ROOTFS_DIR}"
 		false
 	fi
 	mkdir -p "${ROOTFS_DIR}"

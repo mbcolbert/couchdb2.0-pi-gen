@@ -54,3 +54,6 @@
 
 # Enable audio (loads snd_bcm2835)
 dtparam=audio=on
+
+# 16MB video memory (for headless mode)
+gpu_mem=16
