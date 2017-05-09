@@ -1,7 +1,12 @@
 # pi-gen w/ couchdb2.0
 _This tool is used to create Raspbian-Lite images with CouchDB 2.0 pre-installed_
 
-## Build
+## Requirements
+
+- Docker
+- binfmt-support
+
+## Build using Docker
 
 ```bash
 ./build-docker.sh
