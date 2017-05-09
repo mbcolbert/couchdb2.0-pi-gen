@@ -1,5 +1,5 @@
-# pi-gen
-_Tool used to create Raspbian images_
+# pi-gen w/ couchdb2.0
+_This tool is used to create Raspbian-Lite images with CouchDB 2.0 pre-installed_
 
 ## Build
 
