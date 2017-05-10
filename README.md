@@ -36,7 +36,7 @@ In the future, I may look into configurations that overclock either the SD card 
 
 ## Verifying CouchDB
 
-Using a web browser, go to http://<your-pi-ip-address>:5984/_utils to access the CouchDB dashboard.  Select the "Verify" menu item and press the "Verify Installation" button.
+Using a web browser, go to http://your-pi-ip-address:5984/_utils to access the CouchDB dashboard.  Select the "Verify" menu item and press the "Verify Installation" button.
 
 
 
